@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tutorial on Eureka!</title>
+    <link>https://zohansyahfatomi.github.io/tags/tutorial/</link>
+    <description>Recent content in Tutorial on Eureka!</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>© Zohan Syah Fatomi</copyright>
+    <lastBuildDate>Mon, 18 May 2020 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://zohansyahfatomi.github.io/tags/tutorial/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Tutorial Python #1 : Instal Python di Sistem Operasi [Linux]</title>
+      <link>https://zohansyahfatomi.github.io/tutorial/python_1-instal/</link>
+      <pubDate>Mon, 18 May 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://zohansyahfatomi.github.io/tutorial/python_1-instal/</guid>
+      <description>Python sebagai bahasa pemrograman tidak secara otomatis terinstal di dalam suatu Sistem Operasi (kecuali di Ubuntu yang secara default sudah terinstal Python versi 2.7.18rc1). Untuk menggunakan bahasa pemrograman Python maka Anda harus melakukan instalasi Python secara terpisah dari pada sistem operasi tersebut.
+Dalam blog ini Anda akan mempelajari : - Bagaimana menginstal Python 3.8.2 pada sistem operasi Linux Ubntu 20.04 LTS - Melakukan verifikasi program Pythona apakah sudah terinstal pada sistem operasi Anda (dalam hal ini adalah Linux Ubuntu 20.</description>
+    </item>
+    
+  </channel>
+</rss>
