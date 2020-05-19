@@ -7,10 +7,22 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>© Zohan Syah Fatomi</copyright>
-    <lastBuildDate>Tue, 19 May 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 20 May 2020 02:01:58 +0530</lastBuildDate>
     
 	<atom:link href="https://zohansyahfatomi.github.io/tags/tutorial/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Tutorial Python #3 : Hakikat Pemrograman dan Definisi Python</title>
+      <link>https://zohansyahfatomi.github.io/tutorial/python-3-hakikat-pemrograman-dan-definisi-python/</link>
+      <pubDate>Wed, 20 May 2020 02:01:58 +0530</pubDate>
+      
+      <guid>https://zohansyahfatomi.github.io/tutorial/python-3-hakikat-pemrograman-dan-definisi-python/</guid>
+      <description>Kesimpulan Melakukan instalasi Python 3.8.2 pada sistem operasi Anda merupakan langkah awal dan esensial untuk belajar pada Python. Tanpa bisa melakukan instalasi Python 3.8.2 pada sistem operasi Anda, Anda tidak dapat memulai pembelajaran Python.
+Selain tutorial yang telah dijelaskan di atas, Anda dapat mengikuti melalui alur pada langkah-langkah video berikut.
+  Tutorial sebelumnya : Tutorial Python #1 : Instal Python di Sistem Operasi [Linux]
+Tutorial selanjutnya : Tutorial Python #3 : Hakikat Pemrograman dan Definisi Python</description>
+    </item>
     
     <item>
       <title>Tutorial Python #2 : Instal Jupyter Notebook di Sistem Operasi [Linux]</title>
