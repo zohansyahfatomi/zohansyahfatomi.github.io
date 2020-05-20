@@ -18,10 +18,9 @@
       <pubDate>Wed, 20 May 2020 02:01:58 +0530</pubDate>
       
       <guid>https://zohansyahfatomi.github.io/tutorial/python-3-hakikat-pemrograman-dan-definisi-python/</guid>
-      <description>Kesimpulan Melakukan instalasi Python 3.8.2 pada sistem operasi Anda merupakan langkah awal dan esensial untuk belajar pada Python. Tanpa bisa melakukan instalasi Python 3.8.2 pada sistem operasi Anda, Anda tidak dapat memulai pembelajaran Python.
-Selain tutorial yang telah dijelaskan di atas, Anda dapat mengikuti melalui alur pada langkah-langkah video berikut.
-  Tutorial sebelumnya : Tutorial Python #1 : Instal Python di Sistem Operasi [Linux]
-Tutorial selanjutnya : Tutorial Python #3 : Hakikat Pemrograman dan Definisi Python</description>
+      <description>Sebelum belajar pemrograman (khususnya pemrograman Python) maka Anda perlu mengerti dan paham apa itu program dan apa itu pemrograman. Anda harus paham objek yang Anda buat (program) dan filosofi pembuatannya (pemrogramannya). Ibarat seorang ksatria yang menuju medan perang maka untuk menang ksatria tersebut harus paham dan tahu betul bagaimana medan perangnya, musuhnya dan peralatan yang dia miliki dalam perang tersebut.
+Pada blog ini Anda akan belajar :
+ Definisi Program Definisi Pemrograman Definisi Python dan Mengapa dalam hal ini Anda memilih Python  Apa itu Program?</description>
     </item>
     
     <item>
@@ -31,7 +30,7 @@ Tutorial selanjutnya : Tutorial Python #3 : Hakikat Pemrograman dan Definisi Pyt
       
       <guid>https://zohansyahfatomi.github.io/tutorial/python-2-instal-jupyter/</guid>
       <description>Jupyter Notebook merupakan aplikasi berbasis web yang mengizinkan Anda untuk membuat web dan membagikannya kepada orang lain. Hal yang istimewa dari Jupyter Notebook adalah Anda dapat melakukan live-coding di platfrom dokumen tersebut. Tidak hanya itu, Anda dapat melakukan proses visualisasi data dan mencetak teks (berbasis markdown). Hal lain yang bisa dilakukan pada Jupyter Notebook antara lain :
-- Data cleaning - Data tranformation - Simulasi Numerik - Machine learning - dlsb.</description>
+ Data cleaning Data tranformation Simulasi Numerik Machine learning dlsb.  Dalam blog ini Anda akan mempelajari :</description>
     </item>
     
     <item>
