@@ -7,10 +7,21 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>© Zohan Syah Fatomi</copyright>
-    <lastBuildDate>Wed, 20 May 2020 02:01:58 +0530</lastBuildDate>
+    <lastBuildDate>Thu, 21 May 2020 02:01:58 +0530</lastBuildDate>
     
 	<atom:link href="https://zohansyahfatomi.github.io/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Tutorial Python #4 : Interpreter vs Compiler</title>
+      <link>https://zohansyahfatomi.github.io/tutorial/python-4-intrepreter-vs-compiler/</link>
+      <pubDate>Thu, 21 May 2020 02:01:58 +0530</pubDate>
+      
+      <guid>https://zohansyahfatomi.github.io/tutorial/python-4-intrepreter-vs-compiler/</guid>
+      <description>Kesimpulan Selain tutorial yang telah dijelaskan di atas, Anda dapat mengikuti melalui alur pada langkah-langkah video berikut.
+  Tutorial sebelumnya : Tutorial Python #3 : Hakikat Pemrograman dan Definisi Python
+Tutorial selanjutnya : Tutorial Python #5 : Intrepreter vs Compiler</description>
+    </item>
     
     <item>
       <title>Tutorial Python #3 : Hakikat Pemrograman dan Definisi Python</title>

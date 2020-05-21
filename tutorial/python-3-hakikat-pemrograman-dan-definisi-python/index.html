@@ -58,12 +58,15 @@
 <h2 id="apa-itu-program">Apa itu Program?</h2>
 <p>Di dalam ilmu komputer, program didefinisikan dengan suatu instruksi dari manusia yang ditujukan kepada komputer. Program dikonstruksi sedemikian rupa agar dapat membantu tugas dari manusia. Pada kenyataannya program tidak bisa bisa berdiri tunggal. Program selayaknya dikonstruksi dengan program-program yang lain sehingga membentuk perangkat lunak. Perangkat lunak inilah yang Anda sering gunakan di dalam komputer (PC) ataupun smartphone Anda.</p>
 <figure>
-    <img src="https://i.ibb.co/8PFSSKK/Screenshot-from-2020-05-20-20-10-27.png"/> 
+    <img src="https://i.ibb.co/8PFSSKK/Screenshot-from-2020-05-20-20-10-27.png"/> <figcaption>
+            <h4>Program GEdit sebagai editor teks di Ubuntu 20.04 LTS</h4>
+        </figcaption>
 </figure>
 
-<p>Semisal Anda menggunakan perangkat lunak <em>text editor</em>, <code>gedit</code>. Program <code>gedit</code> digunakan biasanya digunakan untuk melakukan editing file berbasis teks atau juga bisa digunakan untuk menulis program.</p>
-<p>Perlu diketahui juga bahwa suatu program memiliki konstruksi/model format pengeksekusian tertentu. Artinya setiap program dapat memiliki karakteristik pengeksekusian yang berbeda. Contoh program yang sederhana adalah program pencetak teks yang Anda buat di halaman <a href="../python-2-instal-jupyter">sebelumnya</a> yang bisa mencetak nama Anda.</p>
-<p>Anda dapat membuat program yang lebih cerdas yaitu inputan nama diberikan pada saat program sedang berlangsung (<em>running</em>). Silahkan masukan kode Python sebagai berikut.</p>
+<p>Semisal Anda menggunakan perangkat lunak <em>text editor</em>, <code>gedit</code>. Program <code>gedit</code> biasanya digunakan untuk melakukan editing file yang berbasis teks atau juga bisa digunakan untuk menulis program.</p>
+<p>Perlu diketahui juga bahwa suatu program memiliki konstruksi/model format pengeksekusian tertentu. Artinya setiap program dapat memiliki karakteristik pengeksekusian yang berbeda. Anda mungkin pernah mendengar bahasa pemrograman C, bukan? Mungkin ada pertanyaan di benak Anda, kalau sama-sama bahasa pemrograman, kenapa harus dipisahkan (antara pemrograman C dengan Python)? Kenapa tidak menjadi satu saja?! Jawabannya adalah karena karakteristik dari kedua pemrograman tersebut berbeda. Lebih khusus lagi cara pengeksekusian antara kedua jenis pemrograman tersebut berbeda. Python menggunakan <code>interpreter</code> sedangkan C menggunakan <code>compiler</code>.</p>
+<p><em>Back to the topic!</em>. Ngomongin tentang program, contoh program yang sederhana adalah program pencetak teks yang Anda buat di halaman <a href="../python-2-instal-jupyter">sebelumnya</a> yang bisa mencetak nama Anda.</p>
+<p>Namun, Anda dapat membuat program yang lebih cerdas yaitu inputan nama diberikan pada saat program sedang berlangsung (<em>running</em>). Silahkan masukan kode Python sebagai berikut.</p>
 <div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python">x <span style="color:#f92672">=</span> input(<span style="color:#e6db74">&#34;Masukan nama Anda : &#34;</span>)
 <span style="color:#66d9ef">print</span>(<span style="color:#e6db74">&#34;Nama Anda adalah &#34;</span>,x)
 </code></pre></div><p>Selain menjalankan program di Jupyter Notebook, Anda juga bisa menjalankan program Python di terminal Anda. Anda cukup memasukan kode perintah <code>python3</code> kemudian terminal Python akan terpanggil (dalam hal ini disebut dengan RPEL). REPL kependekand dari <em>Read Evaluate Process Looping</em>.</p>
@@ -73,8 +76,24 @@
         </figcaption>
 </figure>
 
-<h2 id="apa-itu-pemrograman">Apa itu Pemrograman</h2>
-<h2 id="apa-itu-python-dan-mengapa-python">Apa itu Python dan Mengapa Python?</h2>
+<h2 id="apa-itu-pemrograman-bahasa-pemrograman">Apa itu Pemrograman (Bahasa Pemrograman)?</h2>
+<p>Dari subbab di atas, telah disinggung sebentar tentang bahasa pemrograman. Anda sudah mengenal pemrograman Python dan C. Nyatanya di dunia ini, terdapat banyak sekali bahasa pemrograman. Variasi dari bahasa pemrograman tersebut eksis karena kebutuhan manusia yang bermacam-macam. Yah, Anda benar. Sebenarnya, bahasa pemrograman diciptakan erat terkait dengan masalah yang bisa dihadapi oleh bahasa pemrograman tersebut.</p>
+<p><em>Well</em>, sebut saja bahasa pemrograman C. Bahasa pemrograman C biasa digunakan untuk mengatasi permasalahan <em>low-level</em>. Maksud dari permasalahan <em>low-level</em> adalah permasalahan yang sangat dekat sekali (erat kaitannya) dengan arsitektur mesin. Bahasa pemrograman C merupakan bahasa yang terbaik untuk mengkonstruksi suatu sistem operasi, kernel ataupun driver.</p>
+<p>Beda halnya dengan bahasa pemrograman Python. Bahasa ini lebih biasa digunakan untuk mengatasi permasalahan <em>high-level</em>. Maksud dari permasalahan <em>high-level</em> adlaah permasalahan yang sangat dekat sekali (erat kaitannya) dengan dinamika permasalahan manusia secara umum. Contohnya apa? Contohnya banyak sekali, mungkin untuk mengatasi bisnis <em>finance</em> misalnya. Bahasa Python sangat ampuh digunakan untuk memproses dan mengelela data.</p>
+<p>Kembali lagi, bahasa pemrograman diciptakan berdasarkan kasus yang ingin ditangani + filosofi yang menyertainya.</p>
+<p><strong>Pertanyannya adalah apa itu pemrograman?</strong> <em>Why it is so important as hell?</em></p>
+<p><em>Well</em>, okey. Untuk menjawab pertanyaan tersebut lebih enaknya harus digunakan suatu analogi.</p>
+<p>Semisal nih, ada 2 orang yang bercakap-cakap. Namun sayang, kedua orang tersebut memiliki latar belakang yang berbeda. Orang pertama sebut saja orang A, berasal dari daerah Pasundan Jawa Barat. Sedangkan orang kedua sebut saja orang B, berasal dari Bontang Kalimantan Timur. Kira-kira terjadilah percakapan seperti ini :</p>
+<pre><code>- Orang A : &quot;Kumaha damang teh?&quot;
+- Oranb B : &quot;Eh, ini susu bukan teh na&quot;
+- Orang A : &quot;Iya, ini teh, susu&quot;
+- Oranb B : &quot;Eh, ini susu bukan teh na&quot;
+- Orang A : &quot;...&quot;
+</code></pre>
+<p>Apa yang dapat ditarik kesimpulan dari percakapan di atas? <em>Well</em>, boleh dibilang kedua orang tersebut merepresentasikan hubungan antara komputer dengan manusia. Manusia dan komputer tidak bisa berkomunikasi secara langsung. Sehingga, manusia tidak bisa memerintahkan komputer secara langsung. Sekeras apapun kamu berteriak, kamu tidak bisa membuat komputermu berbicara ataupun menampilkan cetakan namamu yang ada pada subbb sebelumnya.</p>
+<p>Disinilah letak pentingnya <strong>pemrograman yaitu sebagai sarana jembatan komunikasi antara komputer dengan manusia.</strong> Itulah kita menyebut pemrograman itu sebagai suatu <em>bahasa</em>, karena memang itulah wujud komunikasi antara manusia dan komputer.</p>
+<p>Lebih khusus lagi, orang yang mampu membuat program dalam hal ini disebut dengan <strong>programmer</strong>. Dan dalam hal ini itulah Anda setelah menyelesaikan <em>course</em> ini.</p>
+<h2 id="apa-itu-python-dan-mengapa">Apa itu Python dan Mengapa?</h2>
 <h2 id="kesimpulan">Kesimpulan</h2>
 <p>Selain tutorial yang telah dijelaskan di atas, Anda dapat mengikuti melalui alur pada langkah-langkah video berikut.</p>
 
@@ -82,8 +101,8 @@
   <iframe src="https://www.youtube.com/embed/Hf9zjWfoLFo" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen title="YouTube Video"></iframe>
 </div>
 
-<p>Tutorial sebelumnya : <a href="../python-1-instal-python">Tutorial Python #1 : Instal Python di Sistem Operasi [Linux]</a></p>
-<p>Tutorial selanjutnya : <a href="../python-3-hakikat-pemrograman-dan-definisi-python">Tutorial Python #3 : Hakikat Pemrograman dan Definisi Python</a></p>
+<p>Tutorial sebelumnya : <a href="../python-1-instal-python">Tutorial Python #2 : Instal Python di Sistem Operasi [Linux]</a></p>
+<p>Tutorial selanjutnya : <a href="../python-3-hakikat-pemrograman-dan-definisi-python">Tutorial Python #4 : Intrepreter vs Compiler</a></p>
 
 		</section>
 
