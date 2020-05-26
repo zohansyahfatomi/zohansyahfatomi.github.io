@@ -6,8 +6,8 @@
 <meta property="og:description" content="Mempelajari kesamaan-perbedaan dari definisi dan cara kerja antara interpreter dan compiler" />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="https://zohansyahfatomi.github.io/tutorial/python-4-intrepreter-vs-compiler/" />
-<meta property="article:published_time" content="2020-05-21T02:01:58+05:30" />
-<meta property="article:modified_time" content="2020-05-21T02:01:58+05:30" />
+<meta property="article:published_time" content="2020-05-24T02:01:58+05:30" />
+<meta property="article:modified_time" content="2020-05-24T02:01:58+05:30" />
 <meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content="Tutorial Python #4 : Interpreter vs Compiler"/>
 <meta name="twitter:description" content="Mempelajari kesamaan-perbedaan dari definisi dan cara kerja antara interpreter dan compiler"/>
@@ -39,20 +39,71 @@
 	<article>
 		<div class="title">
 			<h1 class="title">Tutorial Python #4 : Interpreter vs Compiler</h1>
-			<div class="meta">Di poskan pada: 21 May 2020</div>
+			<div class="meta">Di poskan pada: 24-05-2020</div>
 		</div>
 		
 
 		<section class="body">
-			<h2 id="kesimpulan">Kesimpulan</h2>
-<p>Selain tutorial yang telah dijelaskan di atas, Anda dapat mengikuti melalui alur pada langkah-langkah video berikut.</p>
+			<h2 id="compiler">Compiler</h2>
+<p>Jadi, apa sih yang dimaksud dengan <code>compiler</code>? <em>Well</em>, sederhananya compiler merupakan suatu program yang digunakan untuk melakukan menerjemahkan (mentranformasikan) kode yang bersifat <em>high-level</em> (dekat dengan bahasa manusia) seperti Java, Javascript, Pyhthon dlsb. ke dalam kode <em>low-level</em> (dekat dengan bahasa mesin) seperti Assembly yang akan dieksekusi oleh komputer atau program lain seperti mesin virtual misalnya JVM (<em>Java Virtual Machine</em>).</p>
+<p>Seperti yang disebutkan di atas bahwa contoh bahasa pemrograman yang menggunakan compiler adalah Java. Compiler dari pemrograman Java disebut dengan <code>javac</code>.</p>
+<figure>
+    <img src="https://i.ibb.co/s389N9c/Screenshot-from-2020-05-25-09-50-24.png"/> <figcaption>
+            <h4>`javac` sebagai compiler pemrograman Java</h4>
+        </figcaption>
+</figure>
+
+<p><code>javac</code> yang merupakan referensi dari <code>java compiler</code> digunakan untuk melakukan konversi kode Java ke dalam bentuk <em>java-bytecode</em> yang dapat dieksekusi oleh JVM. Adapun, proses konversi tersebut dapat diamati pada gambar tersebut.</p>
+<figure>
+    <img src="https://i.ibb.co/GV54qcC/1.png"/> <figcaption>
+            <h4>Proses `compiling` pada pemrograman Java</h4>
+        </figcaption>
+</figure>
+
 
 <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
-  <iframe src="https://www.youtube.com/embed/Hf9zjWfoLFo" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen title="YouTube Video"></iframe>
+  <iframe src="https://www.youtube.com/embed/PKYrTbwzDlg" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen title="YouTube Video"></iframe>
 </div>
 
+<h2 id="interpreter">Interpreter</h2>
+<p>Sebenarnya konsep bekerja pada interpreter mirip dengan proses pengerjaan pada compiler, yaitu melakukan transformasi dari kode sumber ke dalam kode mesin. Namun demikian, tidak seperti pada compiler yang menghasilkan suatu <code>kode eksekusi</code> (kode mesin), interpreter <strong>secara langsung mengeksekusi</strong> kode sumber (tanpa menghasilkan <code>kode eksekusi</code>).</p>
+<p>Contoh bahasa pemrograman yang menggunakan interpreter adalah Python. Di Ubuntu 20.04 LTS, tnterpreter pada Python dapat Anda akses menggunakan kata kunci <code>python</code> (untuk Python 2.7) dan <code>python3</code> (untuk Python 3.*).</p>
+<figure>
+    <img src="https://i.ibb.co/4ZWKmF8/Screenshot-from-2020-05-26-17-16-15.png"/> <figcaption>
+            <h4>`python3` sebagai interpreter dari Python versi 3.\*</h4>
+        </figcaption>
+</figure>
+
+<p>Adapun contoh pengeksekusian Python yang menggunakan interpreter dapat Anda lihat pada video berikut.</p>
+
+<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+  <iframe src="https://www.youtube.com/embed/OIZ3yijrtIg" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen title="YouTube Video"></iframe>
+</div>
+
+<h2 id="compiler-vs-interpreter">Compiler vs Interpreter</h2>
+<table>
+<thead>
+<tr>
+<th>Syntax</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Header</td>
+<td>Title</td>
+</tr>
+<tr>
+<td>Paragraph</td>
+<td>Text</td>
+</tr>
+</tbody>
+</table>
+<h2 id="kesimpulan">Kesimpulan</h2>
+<!-- raw HTML omitted -->
+<!-- raw HTML omitted -->
 <p>Tutorial sebelumnya : <a href="../python-3-hakikat-pemrograman-dan-definisi-python">Tutorial Python #3 : Hakikat Pemrograman dan Definisi Python</a></p>
-<p>Tutorial selanjutnya : <a href="../python-4-intrepreter-vs-compiler">Tutorial Python #5 : Intrepreter vs Compiler</a></p>
+<p>Tutorial selanjutnya : <a href="../python-4-intrepreter-vs-compiler">Tutorial Python #5 : Konsep Variabel</a></p>
 
 		</section>
 
@@ -90,7 +141,7 @@ s.setAttribute('data-timestamp', +new Date());
 </main>
 <footer>
 <hr><a class="soc" href="https://github.com/zohansyahfatomi" title="GitHub"><i data-feather="github"></i></a>|<a class="soc" href="https://twitter.com/zohan_code" title="Twitter"><i data-feather="twitter"></i></a>|<a class="soc" href="https://www.youtube.com/channel/UCljTNZsL7SV-RbAYv8YyFUw?view_as=subscriber" title="Youtube"><i data-feather="youtube"></i></a>|⚡️
-	2020  © Zohan Syah Fatomi - Blogger, Coder, Data Scientists|  
+	2020  © Zohan Syah Fatomi - Blogger, Coder, Data Scientists 
 </footer>
 
 
