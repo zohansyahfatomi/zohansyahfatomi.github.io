@@ -6,7 +6,16 @@
     <description>Recent content on </description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 23 May 2018 00:00:00 +0000</lastBuildDate><atom:link href="https://zohansyahfatomi.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 03 Jun 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://zohansyahfatomi.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>AWS Certified Cloud Practitioner Certification Course (CLF-C01)</title>
+      <link>https://zohansyahfatomi.github.io/blog/post_1_aws_ccp/</link>
+      <pubDate>Sat, 03 Jun 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://zohansyahfatomi.github.io/blog/post_1_aws_ccp/</guid>
+      <description>What is the Certificed Cloud Practitioner (CCP)? The cloud fundamentals e.g. Cloud Concepts, Cloud Architecture, Cloud Deployment Models. AWS Core Services Identity, Security and Governance of the Cloud. Billing, Pricing and Support of AWS Service. AWS Certification Roadmap Beginner Level AWS Certified Cloud Practicioner Associate Level AWS Certified SysOps Administrator Associate AWS Certified Developer Associate AWS Certified Solution Architect Associate Profesional Level AWS Certified DevOps Engineer Profesional AWS Certified Solution Architect Profesional Specialty Level AWS Certified Security Specialty AWS Certified Advanced Networking Specialty AWS Certified Database Specialty AWS Certified Machine Learning Specialty AWS Certified Data Analytics Specialty Road: CCP -&amp;gt; Solution Architect -&amp;gt; Machine Learning -&amp;gt; Data Analytics</description>
+    </item>
+    
     <item>
       <title>Curriculum Vitae (CV)</title>
       <link>https://zohansyahfatomi.github.io/cv/</link>
@@ -14,15 +23,6 @@
       
       <guid>https://zohansyahfatomi.github.io/cv/</guid>
       <description> </description>
-    </item>
-    
-    <item>
-      <title>vestibulum vitae dictum aliqua phasellus magnis at</title>
-      <link>https://zohansyahfatomi.github.io/blog/post_1/</link>
-      <pubDate>Wed, 23 May 2018 00:00:00 +0000</pubDate>
-      
-      <guid>https://zohansyahfatomi.github.io/blog/post_1/</guid>
-      <description>eu velit magna aliqua hendrerit Cursus non odio nam suspendisse mollis tempus tincidunt, cursus praesent facilisi elementum etiam rhoncus tempor. At penatibus ultrices nulla phasellus mi quis luctus felis ultricies. Urna tempus ac consequat sem sed curabitur justo, quam suspendisse cursus aenean integer tellus consectetur. Sed bibendum hendrerit volutpat fames libero nisl dui, nunc vivamus augue posuere luctus scelerisque ultrices. Do pretium consectetur vestibulum lacinia eget do semper, varius viverra scelerisque madssa semper venenatis cras.</description>
     </item>
     
     <item>

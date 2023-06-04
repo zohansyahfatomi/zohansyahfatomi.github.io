@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2021.5.25)  2 JUN 2023 21:01
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2021.5.25)  4 JUN 2023 07:55
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -526,7 +526,7 @@ Class scrartcl Warning: Incompatible usage of \@ssect detected.
 (scrartcl)              from within a non compatible caller, that does not
 (scrartcl)              \scr@s@ct@@nn@m@ locally.
 (scrartcl)              This could result in several error messages on input li
-ne 120.
+ne 121.
 
 
 Class scrartcl Warning: Incompatible usage of \@ssect detected.
@@ -534,7 +534,7 @@ Class scrartcl Warning: Incompatible usage of \@ssect detected.
 (scrartcl)              from within a non compatible caller, that does not
 (scrartcl)              \scr@s@ct@@nn@m@ locally.
 (scrartcl)              This could result in several error messages on input li
-ne 132.
+ne 133.
 
 
 Class scrartcl Warning: Incompatible usage of \@ssect detected.
@@ -542,21 +542,18 @@ Class scrartcl Warning: Incompatible usage of \@ssect detected.
 (scrartcl)              from within a non compatible caller, that does not
 (scrartcl)              \scr@s@ct@@nn@m@ locally.
 (scrartcl)              This could result in several error messages on input li
-ne 143.
+ne 144.
 
 [1
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
-Overfull \hbox (4.5026pt too wide) in paragraph at lines 183--183
-\OT1/cmr/m/n/9 (-20) UGM PRESS, ISBN: 978-602-386-957-2 (https://www.tokopedia.
-com/ugmpressonline/pemrograman-
- []
 
-
-Overfull \hbox (18.2776pt too wide) in paragraph at lines 183--183
-[]\OT1/cmr/m/n/9 (-20) Publishing in-ter-na-tional rep-utable jour-nal of Com-p
-u-ta-tional Con-densed Mat-ter (https://doi.org/10.1016/
- []
+Class scrartcl Warning: Incompatible usage of \@ssect detected.
+(scrartcl)              You've used the KOMA-Script implementation of \@ssect
+(scrartcl)              from within a non compatible caller, that does not
+(scrartcl)              \scr@s@ct@@nn@m@ locally.
+(scrartcl)              This could result in several error messages on input li
+ne 189.
 
 
 Class scrartcl Warning: Incompatible usage of \@ssect detected.
@@ -564,43 +561,36 @@ Class scrartcl Warning: Incompatible usage of \@ssect detected.
 (scrartcl)              from within a non compatible caller, that does not
 (scrartcl)              \scr@s@ct@@nn@m@ locally.
 (scrartcl)              This could result in several error messages on input li
-ne 188.
+ne 215.
 
 
-Class scrartcl Warning: Incompatible usage of \@ssect detected.
-(scrartcl)              You've used the KOMA-Script implementation of \@ssect
-(scrartcl)              from within a non compatible caller, that does not
-(scrartcl)              \scr@s@ct@@nn@m@ locally.
-(scrartcl)              This could result in several error messages on input li
-ne 205.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 206--213
+Underfull \hbox (badness 10000) in paragraph at lines 216--223
 
  []
 
 [2] (./main.aux) ) 
 Here is how much of TeX's memory you used:
- 9212 strings out of 482590
- 162482 string characters out of 5953557
+ 9213 strings out of 482590
+ 162512 string characters out of 5953557
  583957 words of memory out of 5000000
- 24226 multiletter control sequences out of 15000+600000
- 547450 words of font info for 78 fonts, out of 8000000 for 9000
+ 24228 multiletter control sequences out of 15000+600000
+ 547707 words of font info for 78 fonts, out of 8000000 for 9000
  309 hyphenation exceptions out of 8191
- 48i,6n,53p,10106b,309s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 48i,5n,53p,10106b,309s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</
 usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/sh
-are/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/tex
-live/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/share/texlive/tex
-mf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/share/texlive/texmf-dis
-t/fonts/type1/public/amsfonts/cm/cmtt10.pfb></usr/share/texlive/texmf-dist/font
-s/type1/public/amsfonts/cm/cmtt9.pfb></usr/share/texlive/texmf-dist/fonts/type1
-/urw/helvetic/uhvb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/helveti
-c/uhvro8a.pfb>
-Output written on main.pdf (2 pages, 118639 bytes).
+are/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx9.pfb></usr/share/tex
+live/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/te
+xmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/share/texlive/texmf-dist
+/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/share/texlive/texmf-dist/fonts
+/type1/public/amsfonts/cm/cmtt10.pfb></usr/share/texlive/texmf-dist/fonts/type1
+/public/amsfonts/cm/cmtt9.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/he
+lvetic/uhvb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/helvetic/uhvro
+8a.pfb>
+Output written on main.pdf (2 pages, 127895 bytes).
 PDF statistics:
- 44 PDF objects out of 1000 (max. 8388607)
- 31 compressed objects within 1 object stream
+ 48 PDF objects out of 1000 (max. 8388607)
+ 34 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 16385 words of extra memory for PDF output out of 17280 (max. 10000000)
+ 16897 words of extra memory for PDF output out of 17280 (max. 10000000)
 
