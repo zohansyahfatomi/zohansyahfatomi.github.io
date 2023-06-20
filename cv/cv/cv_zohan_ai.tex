@@ -1,0 +1,223 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% LaTeX Template: Curriculum Vitae
+%
+% Source: http://www.howtotex.com/
+% Feel free to distribute this template, but please keep the
+% referral to HowToTeX.com.
+% Date: July 2011
+% 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% How to use writeLaTeX: 
+%
+% You edit the source code here on the left, and the preview on the
+% right shows you the result within a few seconds.
+%
+% Bookmark this page and share the URL with your co-authors. They can
+% edit at the same time!
+%
+% You can upload figures, bibliographies, custom classes and
+% styles using the files menu.
+%
+% If you're new to LaTeX, the wiki book is a great place to start:
+% http://en.wikibooks.org/wiki/LaTeX
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\documentclass[paper=a4,fontsize=10pt]{scrartcl} % KOMA-article class
+							
+\usepackage[english]{babel}
+\usepackage[utf8x]{inputenc}
+\usepackage[protrusion=true,expansion=true]{microtype}
+\usepackage{amsmath,amsfonts,amsthm}     % Math packages
+\usepackage{graphicx}                    % Enable pdflatex
+\usepackage[svgnames]{xcolor}            % Colors by their 'svgnames'
+\usepackage{geometry}
+	\textheight=700px                    % Saving trees ;-)
+\usepackage{url}
+
+\frenchspacing              % Better looking spacings after periods
+\pagestyle{empty}           % No page numbers/headers/footers
+
+%%% Custom sectioning (sectsty package)
+%%% ------------------------------------------------------------
+\usepackage{sectsty}
+
+\sectionfont{%			            % Change font of \section command
+	\usefont{OT1}{phv}{b}{n}%		% bch-b-n: CharterBT-Bold font
+	\sectionrule{0pt}{0pt}{-5pt}{3pt}}
+
+%%% Macros
+%%% ------------------------------------------------------------
+\newlength{\spacebox}
+\settowidth{\spacebox}{8888888888}			% Box to align text
+\newcommand{\sepspace}{\vspace*{1em}}		% Vertical space macro
+
+\newcommand{\MyName}[1]{ % Name
+		\Huge \usefont{OT1}{phv}{b}{n} \hfill #1
+		\par \normalsize \normalfont}
+		
+\newcommand{\MySlogan}[1]{ % Slogan (optional)
+		\large \usefont{OT1}{phv}{m}{n}\hfill \textit{#1}
+		\par \normalsize \normalfont}
+
+\newcommand{\NewPart}[1]{\section*{\uppercase{#1}}}
+
+\newcommand{\PersonalEntry}[2]{
+		\noindent\hangindent=2em\hangafter=0 % Indentation
+		\parbox{\spacebox}{        % Box to align text
+		\textit{#1}}		       % Entry name (birth, address, etc.)
+		\hspace{1.5em} #2 \par}    % Entry value
+
+\newcommand{\SkillsEntry}[2]{      % Same as \PersonalEntry
+		\noindent\hangindent=2em\hangafter=0 % Indentation
+		\parbox{\spacebox}{        % Box to align text
+		\textit{#1}}			   % Entry name (birth, address, etc.)
+		\hspace{1.5em} #2 \par}    % Entry value	
+		
+\newcommand{\EducationEntry}[4]{
+		\noindent \textbf{#1} \hfill      % Study
+		\colorbox{Black}{%
+			\parbox{6em}{%
+			\hfill\color{White}#2}} \par  % Duration
+		\noindent \textit{#3} \par        % School
+		\noindent\hangindent=2em\hangafter=0 \small #4 % Description
+		\normalsize \par}
+
+\newcommand{\KerjaEntry}[2]{
+		\noindent \textbf{#1} \hfill      % Study
+		\noindent\hangindent=2em\hangafter=0 \small #2 % Description
+		\normalsize \par}
+
+\newcommand{\WorkEntry}[4]{				  % Same as \EducationEntry
+		\noindent \textbf{#1} \hfill      % Jobname
+		\colorbox{Black}{\color{White}#2} \par  % Duration
+		\noindent \textit{#3} \par              % Company
+		\noindent\hangindent=2em\hangafter=0 \small #4 % Description
+		\normalsize \par}
+
+%%% Begin Document
+%%% ------------------------------------------------------------
+\begin{document}
+% you can upload a photo and include it here...
+%\begin{wrapfigure}{l}{0.5\textwidth}
+%	\vspace*{-2em}
+%		\includegraphics[width=0.15\textwidth]{photo}
+%\end{wrapfigure}
+
+\MyName{Zohan Syah Fatomi}
+\MySlogan{Curriculum Vitae}
+
+\sepspace
+
+%%% Personal details
+%%% ------------------------------------------------------------
+\NewPart{Personal details}{}
+
+\PersonalEntry{Website}{\url{zohansyahfatomi.github.io}}
+\PersonalEntry{Phone}{+62 857 2680 4110}
+\PersonalEntry{Mail}{\url{zohansyahfatomi@gmail.com}}
+\PersonalEntry{Linkedin}{\url{https://www.linkedin.com/in/zohan-syah-fatomi}}
+\PersonalEntry{GitHub}{\url{https://github.com/zohansyahfatomi}}
+
+\NewPart{Portofolio}{}
+\begin{enumerate}
+	\item Publishing Python and Numerical Computation book ISBN: 978-602-386-957-2 (\url{shorturl.at/msGHU}).
+	\item Publishing an international journal in Computational Condensed Matter (\url{shorturl.at/bhrGY})
+	\item Attending International Symposium on Computational Science 2021 Kanazawa Univeristy (Japan) as Presenter (\url{shorturl.at/jtT58})
+	\item Attending International Conference ICMA-SURE 2022 Jenderal Soedirman University (Indonesia) as Presenter (\url{shorturl.at/htAN3})
+	\item Attending International Conference ICST 2022 Gadjah Mada University (Indonesia) as Presenter (\url{shorturl.at/cgEF2})
+\end{enumerate}
+
+
+%%% Education
+%%% ------------------------------------------------------------
+\NewPart{Education}{}
+
+\EducationEntry{Kanazawa University (Japan)}{2019-2021}{Applied Mathematics and Computational Science}{Research Focus: Material properties prediction, Machine Learning, Deep Learning}
+
+\EducationEntry{Universitas Gadjah Mada (Indonesia)}{2014-2019}{Physics}{Research Focus: Material science, Numerical Simulation, Density Functional Theory}
+\sepspace
+
+%%% Work experience
+%%% ------------------------------------------------------------
+
+
+\NewPart{Work experience}{}
+
+\EducationEntry{Research Assistant}{1/9/2022-Now}{(Jenderal Soedirman University)}{
+	\begin{enumerate}
+		\item Performing computational science research with lab members.
+		\item Conduct academic publication in an international journal.
+		\item Detail tools: Python, Mathematical modeling, Numerical Calculation, Machine Learning, Deep Learning.
+	\end{enumerate}
+}
+
+
+\EducationEntry{Python Developer}{12/22/2021-31/8/2022}{(Bitwyre Exchange)}{
+	\begin{enumerate}
+		\item Discussion with the team to deliver features exchange.
+		\item Building crypto exchange algorithm to provide low-latency transactions.
+		\item Fix bugs, build testing, and manage micro-service system Python-related projects.
+		\item Making endpoint based on event distributive system.
+		\item Detail tools: Python, SQL, Apache Kafka (Redpanda), Flask, Git, Pandas, Docker, TensorFlow, Keras, Scikit-Learn, matplotlib, ggplot.	
+	\end{enumerate}
+}
+
+\sepspace
+
+\EducationEntry{Research Assistant}{01/21-04/21}{Saito Lab. (Kanazawa University)}{
+	\begin{enumerate}
+		\item Discussion with Lab. members to set the research goals.
+		\item Collaborate with Lab. members to process data obtaining, data analysis, and data visualization.
+		\item Final presentation of the International Symposium on Computational Science 2021, Kanazawa University, Japan (\url{hal.s.kanazawa-u.ac.jp/iscs2021.html}).
+	\end{enumerate}
+}
+
+\sepspace
+
+\EducationEntry{Research Assistant}{08/18-07/22}{Computational Physics Lab. (Universitas Gadjah Mada)}{
+		\begin{enumerate}
+		\item Teaching and tutoring of python programming and numerical analysis to the Lab. members. 
+		\item Publishing educational book of "Pemrograman dan Komputasi Numerik Menggunakan Python" UGM PRESS, ISBN: 978-602-386-957-2 (https://www.tokopedia.com/ugmpressonline/pemrograman-dan-komputasi-numerik-menggunakan-python). 
+		\item Publishing international reputable journal of Computational Condensed Matter 
+		(https://doi.org/10.1016/ j.cocom.2022.e00708)
+	\end{enumerate}
+}
+
+
+%%% Skills
+%%% ------------------------------------------------------------
+\NewPart{KEY Skills}{}
+
+\KerjaEntry{Numerical Analysis and Machine Learning}{\\Able to make a numerical simulation or model for real-world problems by using programming. Able to perform machine learning techniques such as supervised learning, unsupervised learning, reinforcement learning, and deep learning.
+}
+
+\sepspace
+
+\KerjaEntry{Data Handling and Analysis}{\\ Being proficient in handling and analyzing data includes data preprocessing, cleaning, feature engineering, and exploratory data analysis (EDA).
+}
+
+\sepspace
+
+\KerjaEntry{Neural Networks}{\\ Understanding various neural network architectures (e.g., convolutional neural networks, recurrent neural networks)
+
+\sepspace
+
+\KerjaEntry{Natural Language Processing (NLP)}{\\ Able to demonstrate NLP techniques such as text classification, sentiment analysis, and named entity recognition)
+}
+
+\sepspace
+
+\KerjaEntry{Computer Vision}{\\ Able to perform computer vision involves extracting information from images and videos such as classification, object detection, image segmentation, and image generation
+}
+}
+%%% Relevant Information
+%%% ------------------------------------------------------------
+\NewPart{RELEVANT INFORMATION}{}
+\textbf{Math Skills}: Numerical Calculation, Linear Algebra, Calculus, Statistic, Probabilistic, Discreate Mathematics, etc.\\
+\textbf{Programming Language:} Python (Numpy, Pandas, Scipy, Matplotlib, Scikit-Learn, Pytorch, Flask, etc), Java (Minor), C++ (Minor)\\
+\textbf{Data Visualization Tools:}  Excel, Google Sheets, Matplotlib, Tableau\\
+\textbf{CI/CD}: Git, Github, Docker, Apache Kafka (Redpanda) \\
+\textbf{Database:} SQL/NoSQL, PostgreSQL \\
+\textbf{Machine Learning:} Scikit-Learn, Pytorch, TensorFlow\\
+\textbf{Langauge:} English, Indonesia, Japanese (Minor) \\
+\end{document}
