@@ -8,21 +8,21 @@
     <language>en-us</language>
     <lastBuildDate>Fri, 02 Jun 2023 22:28:20 +0700</lastBuildDate><atom:link href="https://zohansyahfatomi.github.io/projects/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>vestibulum vitae dictum aliqua phasellus magnis at</title>
-      <link>https://zohansyahfatomi.github.io/projects/post_1/</link>
-      <pubDate>Wed, 23 May 2018 00:00:00 +0000</pubDate>
+      <title>Handwritten Digit Recognition Using Tensorflow Keras</title>
+      <link>https://zohansyahfatomi.github.io/projects/post_1_handwritten_using_tensorflow/</link>
+      <pubDate>Tue, 20 Jun 2023 00:00:00 +0000</pubDate>
       
-      <guid>https://zohansyahfatomi.github.io/projects/post_1/</guid>
-      <description>eu velit magna aliqua hendrerit Cursus non odio nam suspendisse mollis tempus tincidunt, cursus praesent facilisi elementum etiam rhoncus tempor. At penatibus ultrices nulla phasellus mi quis luctus felis ultricies. Urna tempus ac consequat sem sed curabitur justo, quam suspendisse cursus aenean integer tellus consectetur. Sed bibendum hendrerit volutpat fames libero nisl dui, nunc vivamus augue posuere luctus scelerisque ultrices. Do pretium consectetur vestibulum lacinia eget do semper, varius viverra scelerisque madssa semper venenatis cras.</description>
+      <guid>https://zohansyahfatomi.github.io/projects/post_1_handwritten_using_tensorflow/</guid>
+      <description>GITHUB: Handwritten Digit Recognition Using Tensorflow Keras link github</description>
     </item>
     
     <item>
-      <title>enim ultricies dolore metus ac eiusmod interdum</title>
-      <link>https://zohansyahfatomi.github.io/projects/post_2/</link>
-      <pubDate>Fri, 18 May 2018 00:00:00 +0000</pubDate>
+      <title>Loan Approval Machine Learning Logistic Regression</title>
+      <link>https://zohansyahfatomi.github.io/projects/post_2_crm_using_python/</link>
+      <pubDate>Tue, 20 Jun 2023 00:00:00 +0000</pubDate>
       
-      <guid>https://zohansyahfatomi.github.io/projects/post_2/</guid>
-      <description>non tempor mauris elementum semper Interdum dolor sit etiam aenean ac fermentum auctor cursus nulla tellus purus justo. Ullamcorper elit do tincidunt auctor sit leo, pulvinar scelerisque do fringilla nisi porttitor fermentum. Tellus elit mauris lobortis iaculis mus morbi nunc lacus. Velit placerat facilisis varius odio purus sociis elementum morbi. Dignissim congue nulla diam aenean mi commodo quisque egestas amet mattis posuere lobortis. Tristique laoreet mus diam tellus vestibulum scelerisque ipsum, rhoncus mollis sed consequat natoque eget sem.</description>
+      <guid>https://zohansyahfatomi.github.io/projects/post_2_crm_using_python/</guid>
+      <description>GITHUB: Loan Approval Machine Learning Logistic Regression link github</description>
     </item>
     
     <item>
@@ -32,6 +32,16 @@
       
       <guid>https://zohansyahfatomi.github.io/projects/post_3/</guid>
       <description>donec lacinia eleifend sem a Pulvinar tempor ultrices amet praesent aliquet non magnis euismod elit venenatis. Aliqua consequat tristique erat nulla sit risus aliqua posuere. Potenti natoque augue proin accimsan risus scelerisque id integer curabitur mattis amet quisque. Aliquet porta sit sapien natoque sed fringilla, madssa suspendisse vivamus placerat sociis condimentum ridiculus. Natoque egestas non lectus pellentesque nunc mattis eu ridiculus pretium maecenas ligula. Gravida facilisis sem mollis sagittis aliquet ornare bibendum, leo nec morbi tortor diam maecenas tempor.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://zohansyahfatomi.github.io/projects/handwritten-digits-recognition/readme/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://zohansyahfatomi.github.io/projects/handwritten-digits-recognition/readme/</guid>
+      <description>handwritten-digits-recognition A script that trains a model to recognize handwritten digits using the MNIST data set. Then it loads external files and uses the neural network to predict what digits they are.
+Feel free to add 28x28 pixel images into the digits directory!</description>
     </item>
     
   </channel>
