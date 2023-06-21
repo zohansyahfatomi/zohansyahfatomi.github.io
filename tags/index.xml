@@ -6,7 +6,34 @@
     <description>Recent content in Tags on </description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 20 Jun 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://zohansyahfatomi.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 21 Jun 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://zohansyahfatomi.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>python</title>
+      <link>https://zohansyahfatomi.github.io/tags/python/</link>
+      <pubDate>Wed, 21 Jun 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://zohansyahfatomi.github.io/tags/python/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>python basic</title>
+      <link>https://zohansyahfatomi.github.io/tags/python-basic/</link>
+      <pubDate>Wed, 21 Jun 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://zohansyahfatomi.github.io/tags/python-basic/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>python dasar</title>
+      <link>https://zohansyahfatomi.github.io/tags/python-dasar/</link>
+      <pubDate>Wed, 21 Jun 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://zohansyahfatomi.github.io/tags/python-dasar/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>ai</title>
       <link>https://zohansyahfatomi.github.io/tags/ai/</link>
@@ -89,33 +116,6 @@
     </item>
     
     <item>
-      <title>eu fames</title>
-      <link>https://zohansyahfatomi.github.io/tags/eu-fames/</link>
-      <pubDate>Fri, 18 May 2018 00:00:00 +0000</pubDate>
-      
-      <guid>https://zohansyahfatomi.github.io/tags/eu-fames/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>notes</title>
-      <link>https://zohansyahfatomi.github.io/tags/notes/</link>
-      <pubDate>Fri, 18 May 2018 00:00:00 +0000</pubDate>
-      
-      <guid>https://zohansyahfatomi.github.io/tags/notes/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>pharetra</title>
-      <link>https://zohansyahfatomi.github.io/tags/pharetra/</link>
-      <pubDate>Fri, 18 May 2018 00:00:00 +0000</pubDate>
-      
-      <guid>https://zohansyahfatomi.github.io/tags/pharetra/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>laoreet</title>
       <link>https://zohansyahfatomi.github.io/tags/laoreet/</link>
       <pubDate>Sat, 06 Jan 2018 00:00:00 +0000</pubDate>
@@ -130,6 +130,15 @@
       <pubDate>Sat, 06 Jan 2018 00:00:00 +0000</pubDate>
       
       <guid>https://zohansyahfatomi.github.io/tags/mollis-urna/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>notes</title>
+      <link>https://zohansyahfatomi.github.io/tags/notes/</link>
+      <pubDate>Sat, 06 Jan 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://zohansyahfatomi.github.io/tags/notes/</guid>
       <description></description>
     </item>
     

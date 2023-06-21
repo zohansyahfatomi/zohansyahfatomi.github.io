@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>python basic on </title>
+    <link>https://zohansyahfatomi.github.io/tags/python-basic/</link>
+    <description>Recent content in python basic on </description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 21 Jun 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://zohansyahfatomi.github.io/tags/python-basic/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Python Dasar</title>
+      <link>https://zohansyahfatomi.github.io/blog/post_2_tutorial_python_dasar/</link>
+      <pubDate>Wed, 21 Jun 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://zohansyahfatomi.github.io/blog/post_2_tutorial_python_dasar/</guid>
+      <description>Python Dasar Instalasi Python 3.11.4 di Ubuntu 22.04 LTS Untuk melakukan instalasi Python di Ubuntu 22.04 LTS dapat dilakukan dengan :
+Mendownload python 3.11.4 dengan mengakses https://python.org/downloads
+Mengekstrak file Python-3.11.4.tar.xz dengan membuka terminal dan memasukan perintah:
+zohan@ubuntu:~$ tar -xf Python-3.11.4.tar.xz zohan Masuk ke dalam folder Python-3.11.4 zohan@ubuntu:~$ cd Python-3.11.4 zohan Melakukan cek konfigurasi zohan@ubuntu:~$ ./configure zohan Proses pengecekan konfigurasi tersebut berguna untuk mengetahui apakah modul-modul yang dibutuhkan pada instalasi Python di Ubuntu sudah sesuai.</description>
+    </item>
+    
+  </channel>
+</rss>

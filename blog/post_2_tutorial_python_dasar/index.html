@@ -107,99 +107,85 @@
 </script>
 
     <main class="grow">
-<div class="prose dark:prose-invert max-w-none">
-<h1 class="standard ">Categories</h1>
-
-<div class="">
-<div class="hover:bg-gray-400 dark:hover:bg-darker flex flex-row items-center justify-start accordion mt-0 mb-0 p-2 active">
-  <i onclick="expandAccordion(this)" class="cursor-pointer chevron p-2 mr-4 fas fa-chevron-right rounded text-blue-500 dark:text-gray-400 hover:bg-gray-300 dark:hover:bg-gray-700"></i>
-  <a href="/categories/python/"><h2 class="accordion m-0">python</h2></a>
+<div class="prose prose-stone dark:prose-invert max-w-none">
+<div class="mb-3">
+  <h1 class="top-h1" style="font-size: 2.75em">Python Dasar</h1>
+  <p class="mb-1">June 21, 2023</p>
+  <p>&mdash;</p>
 </div>
-<div id="panel-item-0" class="panel metadata-panel overflow-hidden bg-gray-200 dark:bg-dark">
-  <div class="metadata p-2"><p class="mt-0 mb-0 text-sm">June 21, 2023</p>
-<p class="mt-1 mb-0 text-sm">Reading Time: 0 minutes</p>
- 
+<div class="content">
+  <h1 id="python-dasar">Python Dasar</h1>
+<h2 id="instalasi-python-3114-di-ubuntu-2204-lts">Instalasi Python 3.11.4 di Ubuntu 22.04 LTS</h2>
+<p>Untuk melakukan instalasi Python di Ubuntu 22.04 LTS dapat dilakukan dengan :</p>
+<ol>
+<li>
+<p>Mendownload python 3.11.4 dengan mengakses
+<a href="https://python.org/downloads">https://python.org/downloads</a></p>
+</li>
+<li>
+<p>Mengekstrak file <code>Python-3.11.4.tar.xz</code> dengan membuka terminal dan memasukan perintah:</p>
+</li>
+</ol>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-console" data-lang="console"><span style="display:flex;"><span>zohan@ubuntu:~$ tar -xf Python-3.11.4.tar.xz
+</span></span><span style="display:flex;"><span>zohan
+</span></span></code></pre></div><ol start="3">
+<li>Masuk ke dalam folder <code>Python-3.11.4</code></li>
+</ol>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-console" data-lang="console"><span style="display:flex;"><span>zohan@ubuntu:~$ cd Python-3.11.4
+</span></span><span style="display:flex;"><span>zohan
+</span></span></code></pre></div><ol start="4">
+<li>Melakukan cek konfigurasi</li>
+</ol>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-console" data-lang="console"><span style="display:flex;"><span>zohan@ubuntu:~$ ./configure
+</span></span><span style="display:flex;"><span>zohan
+</span></span></code></pre></div><p>Proses pengecekan konfigurasi tersebut berguna untuk mengetahui apakah modul-modul yang dibutuhkan pada instalasi Python di Ubuntu sudah sesuai.</p>
+<ol start="5">
+<li>Kompilasi</li>
+</ol>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-console" data-lang="console"><span style="display:flex;"><span>zohan@ubuntu:~$ sudo make
+</span></span><span style="display:flex;"><span>zohan
+</span></span></code></pre></div><p>Proses ini akan mengkompilasi python di folder sekarang Anda berada.</p>
+<ol start="6">
+<li>Kompilasi pada Ubuntu</li>
+</ol>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-console" data-lang="console"><span style="display:flex;"><span>zohan@ubuntu:~$ sudo make install
+</span></span><span style="display:flex;"><span>zohan
+</span></span></code></pre></div><p>Proses ini akan mengkompilasi python di sistem Ubuntu.</p>
+<ol start="6">
+<li>Kompilasi pada Ubuntu</li>
+</ol>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-console" data-lang="console"><span style="display:flex;"><span>zohan@ubuntu:~$ python3 --version
+</span></span><span style="display:flex;"><span>zohan@ubuntu:~$ pip3 --version
+</span></span><span style="display:flex;"><span>zohan@ubuntu:~$ which python3
+</span></span><span style="display:flex;"><span>zohan
+</span></span></code></pre></div><p>Perlu diketahui bahwa pada Ubuntu terdapat jenis python yang sudah built-in terinstal meskipun Anda tidak menginstalnya yaitu python versi 2. Python yang sedang diinstal sekarang adalah Python versi 3.</p>
+<p>Untuk lebih jelasnya, Anda dapat mengakses video sebagai berikut:</p>
 
-
-
-
+<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+  <iframe src="https://www.youtube.com/embed/3dr5-eUA_7o" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen title="YouTube Video"></iframe>
 </div>
-</div>
-</div>
-
-<div class="">
-<div class="hover:bg-gray-400 dark:hover:bg-darker flex flex-row items-center justify-start accordion mt-0 mb-0 p-2 ">
-  <i onclick="expandAccordion(this)" class="cursor-pointer chevron p-2 mr-4 fas fa-chevron-right rounded text-blue-500 dark:text-gray-400 hover:bg-gray-300 dark:hover:bg-gray-700"></i>
-  <a href="/categories/tutorial/"><h2 class="accordion m-0">tutorial</h2></a>
-</div>
-<div id="panel-item-1" class="panel metadata-panel overflow-hidden bg-gray-200 dark:bg-dark">
-  <div class="metadata p-2"><p class="mt-0 mb-0 text-sm">June 21, 2023</p>
-<p class="mt-1 mb-0 text-sm">Reading Time: 0 minutes</p>
- 
-
-
-
-
-</div>
-</div>
-</div>
-
-<div class="">
-<div class="hover:bg-gray-400 dark:hover:bg-darker flex flex-row items-center justify-start accordion mt-0 mb-0 p-2 ">
-  <i onclick="expandAccordion(this)" class="cursor-pointer chevron p-2 mr-4 fas fa-chevron-right rounded text-blue-500 dark:text-gray-400 hover:bg-gray-300 dark:hover:bg-gray-700"></i>
-  <a href="/categories/project/"><h2 class="accordion m-0">project</h2></a>
-</div>
-<div id="panel-item-2" class="panel metadata-panel overflow-hidden bg-gray-200 dark:bg-dark">
-  <div class="metadata p-2"><p class="mt-0 mb-0 text-sm">June 20, 2023</p>
-<p class="mt-1 mb-0 text-sm">Reading Time: 0 minutes</p>
- 
-
-
-
-
-</div>
-</div>
-</div>
-
-<div class="">
-<div class="hover:bg-gray-400 dark:hover:bg-darker flex flex-row items-center justify-start accordion mt-0 mb-0 p-2 ">
-  <i onclick="expandAccordion(this)" class="cursor-pointer chevron p-2 mr-4 fas fa-chevron-right rounded text-blue-500 dark:text-gray-400 hover:bg-gray-300 dark:hover:bg-gray-700"></i>
-  <a href="/categories/diam-aliqua/"><h2 class="accordion m-0">diam aliqua</h2></a>
-</div>
-<div id="panel-item-3" class="panel metadata-panel overflow-hidden bg-gray-200 dark:bg-dark">
-  <div class="metadata p-2"><p class="mt-0 mb-0 text-sm">January 6, 2018</p>
-<p class="mt-1 mb-0 text-sm">Reading Time: 0 minutes</p>
- 
-
-
 
 
 </div>
 </div>
+<div class="flex flex-row justify-around my-2">
+  <h3 class="mb-1 mt-1 text-left mr-4">
+    
+    <a
+      href="/blog/post_1_aws_ccp/"
+      title="AWS Certified Cloud Practitioner Certification Course (CLF-C01)"
+    >
+      <i class="nav-menu fas fa-chevron-circle-left"></i>
+    </a>
+    
+  </h3>
+  <h3 class="mb-1 mt-1 text-left ml-4">
+    
+    <i class="text-gray-300 dark:text-gray-600 fas fa-chevron-circle-right"></i>
+    
+  </h3>
 </div>
 
-<div class="">
-<div class="hover:bg-gray-400 dark:hover:bg-darker flex flex-row items-center justify-start accordion mt-0 mb-0 p-2 ">
-  <i onclick="expandAccordion(this)" class="cursor-pointer chevron p-2 mr-4 fas fa-chevron-right rounded text-blue-500 dark:text-gray-400 hover:bg-gray-300 dark:hover:bg-gray-700"></i>
-  <a href="/categories/fringilla/"><h2 class="accordion m-0">fringilla</h2></a>
-</div>
-<div id="panel-item-4" class="panel metadata-panel overflow-hidden bg-gray-200 dark:bg-dark">
-  <div class="metadata p-2"><p class="mt-0 mb-0 text-sm">January 6, 2018</p>
-<p class="mt-1 mb-0 text-sm">Reading Time: 0 minutes</p>
- 
-
-
-
-
-</div>
-</div>
-</div>
-
-</div>
-<script src="/js/accordion.js"></script>
-<div class="mt-4 d-flex justify-content-center">
-  
-</div>
 
     </main>
     
